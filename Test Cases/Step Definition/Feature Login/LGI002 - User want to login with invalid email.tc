@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login with wrong email address</description>
+   <name>LGI002 - User want to login with invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbc2d5d4-362d-4863-ac01-bf1cae7be264</testCaseGuid>
+</TestCaseEntity>
