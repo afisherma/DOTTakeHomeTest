@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Input Email'), [('email') : 'user1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input Password'), [('password') : 'Password.123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Login/Input Password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('userLoginPage/button_Login'))
+WebUI.callTestCase(findTestCase('Pages/User Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
